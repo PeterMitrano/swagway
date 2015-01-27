@@ -7,7 +7,10 @@ void setup(){
 }
 
 void loop(){
+  
   int potVal = analogRead(A0);
   Serial.println(potVal);
   delay(100);
+  
+  
 }
